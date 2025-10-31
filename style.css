@@ -1,0 +1,37 @@
+body {
+  background: #eef2f7;
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+.menu button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 12px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.menu button:hover { background: #1976d2; }
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 14px;
+}
+button { background: #4caf50; color: white; border: none; cursor: pointer; }
+button:hover { background: #45a049; }
+.section { margin-top: 15px; }
